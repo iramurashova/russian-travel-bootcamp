@@ -1,0 +1,33 @@
+.lead__image {
+  width: calc((min(100%, 100vw)) - 148px * 2);
+  margin: 64px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    margin: 56px 0 0;
+    width: calc(
+      (min(1024px, 100vw)) - ((max(100vw, 768px) - 768px) * (96 / 256))
+    );
+    height: calc(
+      ((min(1024px, 100vw)) - ((max(100vw, 768px) - 768px) * (96 / 256))) *
+        (580 / 928)
+    );
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    margin: 40px 0 0;
+  }
+}
+
+/*
+1024px - ширина экрана при котором поля 96px
+768px - ширина экрана при котором поля 0
+256px - разница
+коэффициент изменения размера отступов - 96/256
+формула полей
+(max(100vw, 768px) - 768px)*(96/256)
+нужно вычесть из ширины 
+*/

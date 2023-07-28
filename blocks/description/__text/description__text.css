@@ -1,0 +1,20 @@
+.description__text {
+  max-width: calc(100% - 294px);
+  margin: 40px 0 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.63; /* 26.08px */
+}
+
+@media screen and (max-width: 1024px) {
+  .description__text {
+    max-width: calc(100%- 238px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .description__text {
+    max-width: 100%;
+  }
+}

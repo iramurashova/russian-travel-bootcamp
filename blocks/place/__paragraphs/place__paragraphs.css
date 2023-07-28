@@ -1,0 +1,26 @@
+.place__paragraphs {
+  max-width: 484px;
+  grid-area: paragraphs;
+  align-self: start;
+  display: grid;
+  gap: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraphs {
+    max-width: 456px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .place__paragraphs {
+    max-width: 352px;
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .place__paragraphs {
+    max-width: 288px;
+    justify-self: center;
+  }
+}

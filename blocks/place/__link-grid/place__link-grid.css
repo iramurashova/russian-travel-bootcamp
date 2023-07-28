@@ -1,0 +1,12 @@
+.place__link-grid {
+  grid-area: url;
+  align-self: end;
+  display: grid;
+  gap: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__link-grid {
+    align-self: center;
+  }
+}
