@@ -25,3 +25,4 @@
 3. Усовершенствовать резиновую верстку
 
 ## **Cсылка на GitHub Pages**
+https://iramurashova.github.io/russian-travel-bootcamp/index.html
