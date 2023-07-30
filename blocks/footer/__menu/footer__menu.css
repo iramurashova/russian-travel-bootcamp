@@ -1,14 +1,15 @@
 .footer__menu {
-  flex-basis: 71%;
+  padding-left: 48px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 790px) {
   .footer__menu {
-    flex-basis: 64.3%;
+    padding-left: 24px;
   }
 }
+
 @media screen and (max-width: 680px) {
   .footer__menu {
-    width: calc(100vw - 16px * 2);
+    padding-left: 16px;
   }
 }

@@ -9,8 +9,10 @@
   background-image: url(../../../images/cover__background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   width: calc(
-    (min(1280px, 100vw)) - ((max(100vw, 1024px) - 1024px) * (96 / 256))
+    (min(1280px, 100vw)) -
+      ((max(min(1280px, 100vw), 1024px) - 1024px) * (96 / 256))
   );
   /*
 1280px - ширина экрана при котором поля 96px
@@ -22,9 +24,11 @@
 нужно вычесть из ширины 
 */
 
-  height: calc(
-    ((min(1280px, 100vw)) - ((max(100vw, 1024px) - 1024px) * (96 / 256))) *
-      (740 / 1184)
+  min-height: calc(
+    (
+        (min(1280px, 100vw)) -
+          ((max(min(1280px, 100vw), 1024px) - 1024px) * (96 / 256))
+      ) * (740 / 1184)
   );
 }
 

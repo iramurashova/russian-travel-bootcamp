@@ -3,7 +3,7 @@
   margin: 0;
   color: #fff;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 560px) {
   .cover__title {
-    max-width: calc(100vw - 16px * 2);
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px; /* 109.524% */
   }

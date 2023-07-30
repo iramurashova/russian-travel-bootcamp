@@ -9,7 +9,7 @@
   <body class="page">
     <header class="header">
       <div class="header__columns">
-        <div class="header__logo"></div>
+        <a href="#" class="header__logo"></a>
         <ul class="header__lang">
           <li>
             <a
@@ -26,19 +26,21 @@
     </header>
     <main class="contain">
       <section class="lead">
-        <h1 class="lead__title">Путешествия по России</h1>
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">
-          Настоящая страна не в выпусках новостей, а здесь.
+          Настоящая страна не в&nbsp;выпусках новостей, а здесь.
         </p>
-        <img
-          src="./images/lead__main-image.jpg"
-          alt="Девушка в поезде, путешествующая по стране"
-          class="lead__image" />
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__image-container">
+          <img
+            src="./images/lead__main-image.jpg"
+            alt="Девушка в поезде, путешествующая по стране"
+            class="lead__image" />
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <section class="intro" aria-label="Секция со статьей">
         <article class="description">
-          <h2 class="description__title">Чего мы там не видели?</h2>
+          <h2 class="description__title">Чего мы там не&nbsp;видели?</h2>
           <p class="description__text">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
             36% планируют провести отпуск в родной стране. Мол, чего мы тут,
@@ -74,8 +76,8 @@
         </article>
       </section>
 
-      <section class="gallery">
-        <ul class="photo-grid">
+      <section class="photo-grid">
+        <ul class="photo-grid__list">
           <li>
             <img
               src="./images/lead__trains.jpg"
@@ -153,7 +155,7 @@
 
       <section class="places" aria-label="Статьи о местах">
         <article class="place">
-          <h3 class="place__title">Куршская коса</h3>
+          <h3 class="place__title">Куршскаякоса</h3>
           <img
             src="images/kurshskaya_kosa.jpg"
             alt="Куршский залив"
@@ -323,10 +325,10 @@
           class="cover__overlay"
           target="_blank"
           rel="noopener noreferrer"
-          ><p class="cover__title">До Байкала «на собаках»</p>
+          ><h3 class="cover__title">До Байкала «на&nbsp;собаках»</h3>
           <p class="cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до
-            Байкала на электричках.
+            По мотивам учебной темы о Транссибе — путешествие от&nbsp;столицы
+            до&nbsp;Байкала на&nbsp;электричках.
           </p></a
         >
       </section>

@@ -1,0 +1,17 @@
+.lead__image-container {
+  font-size: 0;
+  margin: 0 auto;
+  padding: 64px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image-container {
+    padding: 56px 0 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .lead__image-container {
+    padding: 40px 0 0;
+  }
+}

@@ -9,12 +9,25 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
+  .place__image {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 920px) {
   .place__image {
     width: 340px;
   }
 }
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 750px) {
+  .place__image {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 605px) {
   .place__image {
     width: 320px;
   }

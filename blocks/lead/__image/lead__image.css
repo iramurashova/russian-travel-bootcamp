@@ -1,11 +1,12 @@
 .lead__image {
-  width: calc((min(100%, 100vw)) - 148px * 2);
-  margin: 64px 0 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: calc(100% * (615 / 984));
 }
 
 @media screen and (max-width: 1024px) {
   .lead__image {
-    margin: 56px 0 0;
     width: calc(
       (min(1024px, 100vw)) - ((max(100vw, 768px) - 768px) * (96 / 256))
     );
@@ -13,12 +14,6 @@
       ((min(1024px, 100vw)) - ((max(100vw, 768px) - 768px) * (96 / 256))) *
         (580 / 928)
     );
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__image {
-    margin: 40px 0 0;
   }
 }
 
