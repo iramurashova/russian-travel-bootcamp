@@ -1,18 +1,20 @@
 .header__columns {
   display: flex;
-  justify-content: space-around;
-  width: calc(100% - 48px * 2);
-  margin: 0 auto;
+  justify-content: space-between;
+  padding: 0 48px;
 }
 
 @media screen and (max-width: 768px) {
   .header__columns {
-    width: calc(100% - 24px * 2);
+    padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 620px) {
   .header__columns {
-    width: calc(100% - 16px * 2);
+    padding: 0 16px;
   }
 }
+
+
+

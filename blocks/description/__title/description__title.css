@@ -8,7 +8,7 @@
   line-height: 58px; /* 107.407% */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .description__title {
     font-size: 32px;
     line-height: 35px;

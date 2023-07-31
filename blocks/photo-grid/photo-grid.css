@@ -1,16 +1,4 @@
 .photo-grid {
-  padding: 92px 0;
   display: flex;
   justify-content: center;
-}
-@media screen and (max-width: 768px) {
-  .photo-grid {
-    padding: 88px 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .photo-grid {
-    padding: 64px 0;
-  }
 }

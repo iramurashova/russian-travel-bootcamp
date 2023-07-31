@@ -2,9 +2,9 @@
   display: block;
   width: 176px;
   height: 52px;
-  flex-basis: 94%;
   justify-self: start;
   background: url(../../../images/logo.svg) no-repeat;
+  background-size: contain;
   background-position: top left;
 }
 
@@ -12,13 +12,5 @@
   .header__logo {
     width: 142px;
     height: 42px;
-    background-size: contain;
-    flex-basis: 60%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header__logo {
-    flex-basis: 94%;
   }
 }

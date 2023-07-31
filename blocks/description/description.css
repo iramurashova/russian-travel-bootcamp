@@ -7,18 +7,18 @@
 
 @media screen and (max-width: 1024px) {
   .description {
-    max-width: calc(100vw - 48px * 2);
+    max-width: calc(100% - 48px * 2);
   }
 }
 
 @media screen and (max-width: 768px) {
   .description {
-    max-width: calc(100vw - 24px * 2);
+    max-width: calc(100% - 24px * 2);
   }
 }
 
 @media screen and (max-width: 320px) {
   .description {
-    max-width: calc(100vw - 16px * 2);
+    max-width: calc(100% - 16px * 2);
   }
 }

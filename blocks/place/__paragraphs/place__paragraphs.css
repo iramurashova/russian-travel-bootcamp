@@ -6,7 +6,7 @@
   gap: 26px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
   .place__paragraphs {
     max-width: 456px;
   }
@@ -26,7 +26,6 @@
 @media screen and (max-width: 750px) {
   .place__paragraphs {
     max-width: 280px;
-    gap: 25px;
   }
 }
 
